@@ -1,9 +1,9 @@
-/*n av bar*/
+/*nav bar*/
 .dhx_cal_tab {
 	float: right;
 }
 
-/*light box*/
+/*lightbox*/
 .dhx_cal_light .dhx_cal_light_wide {
 	top: 25% !important;
 }
@@ -26,7 +26,7 @@
 	box-sizing: border-box;
 }
 
-/*recurring events repeat event section in light box*/
+/*recurring events repeat event section in lightbox*/
 .dhx_cal_light_rec.dhx_cal_light_wide {
 	width: 738px !important;
 }
@@ -49,7 +49,7 @@ tr.dhx_grid_event td {
 }
 
 @media screen and (min-width: 768px) and (max-width : 992px) {
-	/*date time of the scheduler in n av bar section*/
+	/*datetime of the scheduler in nav bar section*/
 	.dhx_cal_date {
 		font-size: 13px !important;
 	}
@@ -121,7 +121,7 @@ tr.dhx_grid_event td {
 		line-height: 40px !important;
 	}
 
-	/*light box*/
+	/*lightbox*/
 	.dhx_cal_larea {
 		width: auto !important;
 		margin-left: 0 !important;
@@ -207,7 +207,7 @@ tr.dhx_grid_event td {
 		display: none;
 	}
 
-	/*light box*/
+	/*lightbox*/
 	.dhx_cal_light {
 		width: auto !important;
 		height: auto !important;
@@ -255,7 +255,7 @@ tr.dhx_grid_event td {
 }
 
 @media screen and (orientation : landscape) and (max-width: 767px) {
-	/*light box*/
+	/*lightbox*/
 	.dhx_cal_ltext {
 		height: auto !important;
 	}
@@ -266,7 +266,7 @@ tr.dhx_grid_event td {
 }
 
 @media screen and (max-width : 450px) {
-	/*date in n av bar section*/
+	/*date in nav bar section*/
 	.dhx_cal_date {
 		font-size: 14px !important;
 		line-height: 3 !important;
@@ -274,7 +274,7 @@ tr.dhx_grid_event td {
 		font-weight: normal !important;
 	}
 
-	/*light box time period section*/
+	/*lightbox time period section*/
 	.dhx_section_time span {
 		display: none;
 	}
@@ -332,7 +332,7 @@ tr.dhx_grid_event td {
 		width: 50px !important;
 	}
 
-	/*year view - tool tip*/
+	/*year view - tooltip*/
 	.dhx_year_tooltip {
 		left: 0 !important;
 	}
