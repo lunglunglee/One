@@ -1,0 +1,106 @@
+﻿@model ONE.Models.Order_Details
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order_Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Categories.貨品名稱)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categories.貨品名稱)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Main_Employees.代理稱謂)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Main_Employees.代理稱謂)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Orders.客戶)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Orders.客戶)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.訂購日期)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.訂購日期)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnitPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Discount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Discount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.支付方式)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.支付方式)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.相關客戶)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.相關客戶)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.貨品狀況)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.貨品狀況)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.More)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.More)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.OrderID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
